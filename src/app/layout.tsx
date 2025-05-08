@@ -1,6 +1,7 @@
 
 import type { Metadata } from 'next';
-import { Lora, GeistSans, GeistMono } from 'geist/font';
+import { Lora } from 'next/font/google'; // Changed import for Lora
+import { GeistSans, GeistMono } from 'geist/font';
 import './globals.css';
 import { Toaster } from "@/components/ui/toaster";
 import { AuthProvider } from '@/contexts/AuthContext'; // Added AuthProvider
