@@ -1,0 +1,19 @@
+
+__pycache__/
+*.py[cod]
+*$py.class
+
+# SQLite database
+sql_app.db
+*.sqlite
+*.sqlite3
+
+# Environment variables
+.env
+
+# IDE / Editor specific
+.vscode/
+.idea/
+*.swp
+*~
+    
